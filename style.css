@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.service{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 250px;
+    font-weight: bolder;
+    font-size: 40px;
+}
+.service-con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.container{
+ max-height: 80vh;
+}
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1880px;
+   flex-wrap:wrap ;
+   gap: 30px;
+}
+.row .col{
+    max-width: 316px;
+    height: auto;
+    background-color:#fff;
+    box-shadow: 4px 0px 15px rgba(0,0,0,0.5);
+    padding: 20px 30px;
+    border-radius: 20px;
+   transition: all 10s ease-in-out;
+
+}
+.row .col:hover{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5),rgba(102, 16, 208, 0.5));
+}
+.imag{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.imag img{
+  width: 200px;
+  height: 200px;
+  aspect-ratio: 3/2;
+  object-fit: cover;
+  mix-blend-mode: darken;
+    
+}
+
+.text{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.contant{
+    text-align: center;
+      font-weight: 400;
+}
+.btn{
+    text-align: center;
+    margin-top: 20px;
+}
+.btn button{
+    padding: 10px 25px;
+    border: none;
+    outline:none;
+    background-color: black;
+    color: #fff;
+    border-radius: 10px;
+transition: all 0.5s ease-in-out;
+}
+.btn button:hover{
+    background-color: blueviolet;
+
+}
